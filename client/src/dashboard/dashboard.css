@@ -1,0 +1,18 @@
+.mapboxgl-ctrl-top-left{
+    width: 100%;
+}
+.mapboxgl-ctrl-geocoder{
+    width: 50%;
+    .input{
+        width: 50%;
+    }
+}
+.mapboxgl-ctrl-geocoder--input{
+    width: 40%;
+    height: 25px;
+}
+
+.suggestions-wrapper{
+    width: 40%;
+    background-color: white;
+}

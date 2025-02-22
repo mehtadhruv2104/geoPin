@@ -12,3 +12,8 @@ export interface Location{
     userID: string;
 }
 
+
+export interface Coordinates{
+    latitude: number
+    longitude: number
+}

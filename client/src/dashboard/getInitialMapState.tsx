@@ -16,13 +16,12 @@ import { Location } from "../interfaces/interface";
 
 
 const calculateInitialMapState = (locations:Array<Location>) => {
+    
     const totalLocations = locations.length;
     const centroidLongitude = locations.reduce((sum, loc) => sum + loc.longitude, 0) / totalLocations;
     const centroidLatitude = locations.reduce((sum, loc) => sum + loc.latitude, 0) / totalLocations; 
-    return {
-      centroidLongitude,
-      centroidLatitude,
-    };
+
+    return {centroidLongitude,centroidLatitude};
 };
 
 export default calculateInitialMapState;
